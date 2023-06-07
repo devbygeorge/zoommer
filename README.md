@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**Project Description**
 
-## Getting Started
+This repository showcases a pixel-perfect implementation of a single page from the Zoommer website, accurately capturing its visual details and layout.
 
-First, run the development server:
+**Technologies Used**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Next.js
+- Sass
+- Framer Motion
+- Iconsax for React
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Folder Structure**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The repository is organized as follows:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `public/`: Contains static files.
+- `src/`: Contains the main source code for the application.
+  - `app/`: Contains the main application logic and entry point.
+  - `components/`: Contains React components used throughout the application.
+  - `hooks/`: Contains custom React hooks for sharing logic across components.
+  - `styles/`: Contains the CSS files for styling the application.
+  - `utils/`: Contains utility functions and helper modules for the application.
 
-## Learn More
+**Installation and Setup**
 
-To learn more about Next.js, take a look at the following resources:
+To run the application locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository to your local machine
+2. Install dependencies using `npm install`
+3. Run the app using `npm run dev`
+4. Open `http://localhost:3000` in your browser to view the app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Deployment**
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The application is currently deployed on Vercel and is accessible at https://zoommer.vercel.app/.
