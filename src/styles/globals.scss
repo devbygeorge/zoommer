@@ -30,9 +30,10 @@ ul {
 }
 
 button {
-  cursor: pointer;
+  color: variables.$color-black;
   background-color: unset;
   border: unset;
+  cursor: pointer;
 }
 
 input {
