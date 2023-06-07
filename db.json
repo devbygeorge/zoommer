@@ -1,0 +1,148 @@
+{
+  "brands": [
+    {
+      "id": "0001",
+      "name": "portable speakers"
+    },
+    {
+      "id": "0002",
+      "name": "home speakers"
+    },
+    {
+      "id": "0003",
+      "name": "headphones"
+    },
+    {
+      "id": "0004",
+      "name": "buds"
+    },
+    {
+      "id": "0005",
+      "name": "earphones"
+    }
+  ],
+  "banners": [
+    {
+      "id": "0001",
+      "src": "/images/banner-1.jpg",
+      "alt": "Create your own wall of music",
+      "size": "large"
+    },
+    {
+      "id": "0002",
+      "src": "/images/banner-2.jpg",
+      "alt": "Give us your ears and we will play the song for you",
+      "size": "large"
+    },
+    {
+      "id": "0003",
+      "src": "/images/banner-3.jpg",
+      "alt": "King of roads",
+      "size": "small"
+    },
+    {
+      "id": "0004",
+      "src": "/images/banner-4.jpg",
+      "alt": "Small, with a rather large sound",
+      "size": "small"
+    },
+    {
+      "id": "0005",
+      "src": "/images/banner-5.jpg",
+      "alt": "The birth of a legend",
+      "size": "small"
+    },
+    {
+      "id": "0006",
+      "src": "/images/banner-6.jpg",
+      "alt": "Music everywhere, no fuss",
+      "size": "small"
+    }
+  ],
+  "products": [
+    {
+      "id": "0001",
+      "imageSrc": "/images/iphone-purple.jpg",
+      "title": "Apple iPhone 12 | 64GB Purple",
+      "price": "1 799",
+      "credit": 56
+    },
+    {
+      "id": "0002",
+      "imageSrc": "/images/iphone-red.jpg",
+      "title": "Apple iPhone 12 | 64GB Red",
+      "price": "1 799",
+      "credit": 56
+    },
+    {
+      "id": "0003",
+      "imageSrc": "/images/iphone-blue.jpg",
+      "title": "Apple iPhone 12 | 64GB Blue",
+      "price": "1 799",
+      "credit": 56
+    },
+    {
+      "id": "0004",
+      "imageSrc": "/images/iphone-black.jpg",
+      "title": "Apple iPhone 12 | 64GB Black",
+      "price": "1 799",
+      "credit": 56
+    },
+    {
+      "id": "0005",
+      "imageSrc": "/images/iphone-purple.jpg",
+      "title": "Apple iPhone 12 | 64GB Purple",
+      "price": "1 799",
+      "credit": 56
+    },
+    {
+      "id": "0006",
+      "imageSrc": "/images/iphone-red.jpg",
+      "title": "Apple iPhone 12 | 64GB Red",
+      "price": "1 799",
+      "credit": 56
+    },
+    {
+      "id": "0007",
+      "imageSrc": "/images/iphone-purple.jpg",
+      "title": "Apple iPhone 12 | 64GB Purple",
+      "price": "1 799",
+      "credit": 56
+    },
+    {
+      "id": "0008",
+      "imageSrc": "/images/iphone-red.jpg",
+      "title": "Apple iPhone 12 | 64GB Red",
+      "price": "1 799",
+      "credit": 56
+    },
+    {
+      "id": "0009",
+      "imageSrc": "/images/iphone-blue.jpg",
+      "title": "Apple iPhone 12 | 64GB Blue",
+      "price": "1 799",
+      "credit": 56
+    },
+    {
+      "id": "0010",
+      "imageSrc": "/images/iphone-black.jpg",
+      "title": "Apple iPhone 12 | 64GB Black",
+      "price": "1 799",
+      "credit": 56
+    },
+    {
+      "id": "0011",
+      "imageSrc": "/images/iphone-purple.jpg",
+      "title": "Apple iPhone 12 | 64GB Purple",
+      "price": "1 799",
+      "credit": 56
+    },
+    {
+      "id": "0012",
+      "imageSrc": "/images/iphone-red.jpg",
+      "title": "Apple iPhone 12 | 64GB Red",
+      "price": "1 799",
+      "credit": 56
+    }
+  ]
+}

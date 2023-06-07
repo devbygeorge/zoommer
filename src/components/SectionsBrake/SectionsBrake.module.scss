@@ -1,0 +1,7 @@
+@use "@/styles/abstract/variables.scss" as variables;
+
+.sectionsBrake {
+  margin-block: 30px 40px;
+  background-color: variables.$color-secondary;
+  height: 2px;
+}

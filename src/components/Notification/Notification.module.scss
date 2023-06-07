@@ -1,0 +1,25 @@
+@use "@/styles/abstract/variables.scss" as variables;
+
+.notification {
+  position: fixed;
+  bottom: 50px;
+  right: -400px;
+  padding: 16px;
+  background-color: variables.$color-white;
+  border: 1px solid variables.$color-primary;
+  border-radius: 8px;
+  animation-name: notify;
+  animation-duration: 5s;
+}
+
+@keyframes notify {
+  25% {
+    right: 50px;
+  }
+  75% {
+    right: 50px;
+  }
+  100% {
+    right: -400px;
+  }
+}

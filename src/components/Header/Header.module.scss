@@ -1,0 +1,209 @@
+@use "@/styles/abstract/variables.scss" as variables;
+@use "@/styles/abstract/mixins.scss" as mixins;
+
+.header {
+  position: relative;
+  color: variables.$color-white;
+  min-height: 61px;
+
+  @include mixins.respond-to(xlarge) {
+    min-height: 106px;
+  }
+}
+
+// Top area of the header
+.headerTop {
+  display: none;
+  background-color: variables.$color-primary;
+  font-family: variables.$font-firago-semibold;
+  font-size: 12px;
+
+  @include mixins.respond-to(xlarge) {
+    display: block;
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 10px;
+  }
+}
+
+.hotLine {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.secondaryNavList {
+  display: flex;
+  gap: 20px;
+}
+
+.secondaryNavLink {
+  color: rgba($color: variables.$color-white, $alpha: 0.7);
+
+  &:hover {
+    color: variables.$color-white;
+  }
+}
+
+// Bottom area of the header
+.headerBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: variables.$color-secondary;
+  transition: 300ms ease-in-out;
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 13px;
+  }
+
+  &[data-hidden="true"] {
+    position: fixed;
+    bottom: unset;
+    top: -150px;
+    z-index: 1;
+  }
+
+  &[data-triggered="true"] {
+    top: 0;
+  }
+}
+
+.headerBottomLeft {
+  display: flex;
+  gap: 10px;
+}
+
+.headerBottomRight {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  position: relative;
+  width: 133px;
+  height: 35px;
+
+  @include mixins.respond-to(xlarge) {
+    width: 152px;
+    height: 40px;
+  }
+}
+
+.logoImage {
+  object-fit: contain;
+}
+
+.button {
+  position: relative;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 130px;
+  height: 40px;
+  font-family: variables.$font-firago-medium;
+  font-size: 14px;
+  border-radius: 12px;
+
+  @include mixins.respond-to(xlarge) {
+    display: flex;
+  }
+}
+
+.primaryButton {
+  background-color: variables.$color-primary;
+  font-family: variables.$font-firago-medium;
+  color: variables.$color-white;
+  transition: 150ms ease-in-out;
+
+  &:hover {
+    background-color: darken(variables.$color-primary, 5);
+  }
+}
+
+.secondaryButton {
+  background-color: rgba($color: variables.$color-white, $alpha: 0.4);
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 4px);
+  grid-template-rows: repeat(3, 4px);
+  gap: 4px;
+}
+
+.tile {
+  background-color: variables.$color-white;
+}
+
+.productsQuantity {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 15px;
+  background-color: variables.$color-primary;
+  font-size: 12px;
+  color: variables.$color-white;
+  border-radius: 16px;
+
+  @include mixins.respond-to(xlarge) {
+    left: 35px;
+    bottom: -7px;
+  }
+}
+
+.search {
+  display: none;
+  position: relative;
+  width: 460px;
+  height: 40px;
+
+  @include mixins.respond-to(xlarge) {
+    display: block;
+  }
+}
+
+.searchIcon {
+  position: absolute;
+  left: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.searchInput {
+  position: absolute;
+  padding-left: 60px;
+  width: 100%;
+  height: 100%;
+  background-color: variables.$color-white;
+  font-size: 14px;
+  border-radius: 12px;
+  border: 1px solid rgba($color: variables.$color-primary, $alpha: 0.5);
+
+  &::placeholder {
+    color: rgba($color: variables.$color-black, $alpha: 0.8);
+  }
+}
+
+.mobileButton {
+  display: inline-flex;
+  align-items: center;
+
+  @include mixins.respond-to(xlarge) {
+    display: none;
+  }
+}

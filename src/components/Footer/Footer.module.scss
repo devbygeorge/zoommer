@@ -1,0 +1,88 @@
+@use "@/styles/abstract/variables.scss" as variables;
+@use "@/styles/abstract/mixins.scss" as mixins;
+
+.footer {
+  background-color: variables.$color-secondary;
+}
+
+// Top area of the footer
+.footerTop {
+  padding-block: 20px;
+  border-bottom: 2px solid variables.$color-white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 860px;
+}
+
+.navColumn {
+  font-size: 12px;
+}
+
+.navColumnTitle {
+  width: 120px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-family: variables.$font-firago-bold;
+  color: rgba($color: variables.$color-black, $alpha: 0.8);
+  border-bottom: 1px solid variables.$color-primary;
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.navListItem {
+  display: inline-flex;
+}
+
+.navListLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: variables.$font-firago-medium;
+  color: rgba($color: variables.$color-black, $alpha: 0.6);
+
+  &:hover {
+    color: variables.$color-black;
+  }
+}
+
+// Bottom area of the footer
+.footerBottom > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-block: 10px;
+}
+
+.copyright {
+  font-family: variables.$font-firago-light;
+  font-size: 14px;
+  color: rgba($color: variables.$color-black, $alpha: 0.6);
+}
+
+.languageDropdownButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 96px;
+  height: 34px;
+  background-color: variables.$color-white;
+  font-size: 14px;
+  border: 1px solid variables.$color-primary;
+  border-radius: 4px;
+}
+
+.languageDropdownImage {
+  border-radius: 4px;
+  object-fit: cover;
+}
