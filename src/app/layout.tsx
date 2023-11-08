@@ -2,8 +2,7 @@ import "@/styles/globals.scss";
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-
-import { ProductsProvider } from "../hooks/useProducts";
+import { ProductsProvider } from "@/hooks/useProducts";
 
 export const metadata = {
   title: "Zoommer",
